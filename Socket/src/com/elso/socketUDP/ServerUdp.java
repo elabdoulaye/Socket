@@ -16,6 +16,7 @@ DatagramSocket socket;
 /**Construit un serveur UDP Daytime attaché au port 1300  
  * A la fin de la construction, le serveur n'est pas encore en service, 
  * mais sa méthode run() est prête à être exécutée
+ * Pour Test
  */
 public ServerUdp(int localPort) throws SocketException{
 	socket= new DatagramSocket(localPort);
